@@ -2,6 +2,8 @@ name: Run Tests
 
 # This workflow is triggered on pull requests to the main branch
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:

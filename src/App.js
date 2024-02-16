@@ -5,8 +5,9 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import ContactUsPage from './pages/ContactUsPage';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider, styled } from 'styled-components';
 import { theme } from './theme/theme';
+
 
 
 function App() {

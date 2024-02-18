@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* src/App.css or src/index.css */
+.navbar {
+  background-color: #333; /* Dark background */
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: white; /* Light text */
+  text-decoration: none;
+}
+
+
+.nav-button {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker blue */
+  color: #fff;
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Style the <ul> to remove default list styling and add spacing */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+/* Optionally, style the <nav> for alignment or additional spacing */
+nav {
+  padding: 10px 0;
+}

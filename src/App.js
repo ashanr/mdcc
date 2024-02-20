@@ -7,7 +7,6 @@ import AboutUsPage from './pages/AboutUsPage';
 import ContactUsPage from './pages/ContactUsPage';
 import { ThemeProvider, styled } from 'styled-components';
 import { theme } from './theme/theme';
-import GlobalStyle from './GlobalStyles';
 
 
 function App() {
